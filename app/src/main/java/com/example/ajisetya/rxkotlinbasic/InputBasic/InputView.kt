@@ -24,8 +24,6 @@ class InputView : AnkoComponent<InputActivity> {
                 backgroundResource = R.drawable.bg_edittext
                 leftPadding = 30
                 rightPadding = 30
-                textColor = Color.WHITE
-                hintTextColor = Color.WHITE
             }.lparams(width = matchParent, height = wrapContent){
                 bottomMargin = 8
             }
@@ -36,8 +34,6 @@ class InputView : AnkoComponent<InputActivity> {
                 backgroundResource = R.drawable.bg_edittext
                 leftPadding = 30
                 rightPadding = 30
-                textColor = Color.WHITE
-                hintTextColor = Color.WHITE
             }.lparams(width = matchParent, height = wrapContent){
                 bottomMargin = 16
             }

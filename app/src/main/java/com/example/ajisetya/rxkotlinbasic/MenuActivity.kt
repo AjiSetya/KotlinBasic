@@ -3,6 +3,7 @@ package com.example.ajisetya.rxkotlinbasic
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.example.ajisetya.rxkotlinbasic.InputBasic.InputActivity
+import com.example.ajisetya.rxkotlinbasic.RecyclerActivity.RecyclerActivity
 import kotlinx.android.synthetic.main.activity_menu.*
 import org.jetbrains.anko.*
 import org.jetbrains.anko.sdk25.coroutines.onClick
@@ -49,5 +50,7 @@ class MenuActivity : AppCompatActivity() {
             // ngirim email
             email("putra.java.famili@gmail.com", "Anko email", "This Anko email")
         }
+
+        btn_recycler.onClick { startActivity<RecyclerActivity>() }
     }
 }
