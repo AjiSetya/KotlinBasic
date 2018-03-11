@@ -9,6 +9,8 @@ class InputActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // untuk memasang anko ke actiity
+        // bisa dipasang di activity lain
         InputView().setContentView(this)
     }
 }
